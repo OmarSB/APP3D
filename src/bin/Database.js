@@ -1,7 +1,6 @@
 var mongoose = require("mongoose");
 class Database {
   constructor() {}
-
   async connect() {
     try {
       await mongoose.connect(
